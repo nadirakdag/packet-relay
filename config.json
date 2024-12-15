@@ -1,0 +1,28 @@
+{
+  "listeners": [
+    {
+      "protocol": "udp",
+      "listenAddr": ":514",
+      "targetServers": [
+        "192.168.1.101:514",
+        "192.168.1.102:514"
+      ]
+    },
+    {
+      "protocol": "tcp",
+      "listenAddr": ":2055",
+      "targetServers": [
+        "192.168.1.201:2055",
+        "192.168.1.202:2055"
+      ]
+    },
+    {
+      "protocol": "tcp",
+      "listenAddr": ":4739",
+      "targetServers": [
+        "192.168.1.201:4739",
+        "192.168.1.202:4739"
+      ]
+    }
+  ]
+}
